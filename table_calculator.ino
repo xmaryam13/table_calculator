@@ -18,10 +18,8 @@ void setup()
   Serial.begin(115200);
   
   //  set debounce time for both the button objects
-  pinMode(,OUTPUT);
   push_button1.setDebounceTime(50);
 
-  pinMode(,OUTPUT);
   push_button2.setDebounceTime(50);
 
 }
